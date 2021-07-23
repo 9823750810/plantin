@@ -1,0 +1,1282 @@
+/* media Query */
+
+@media(max-width:934px ){
+    .navbar .menu-btn{
+        display: block;
+        z-index: 9999;
+        color:#fff;
+    }
+    
+
+    .menu-btn i.active:before{
+        content:"\f00d";
+        color: #fff;
+    }
+
+  
+    .navbar .menu .menu-list{
+        position: fixed;
+       
+        background: #7a7a7a;
+        width: 50%;
+        height: 100vh;
+        right: -50%;
+        top:0;
+    
+        text-align: center;
+        padding-top: 5rem;
+      
+        transition: all .5s ease;
+        z-index: -9;
+        
+    }
+    .navbar .menu .menu-list.active{
+        right: 0; 
+        /* border-radius: 79% 21% 58% 42% / 53% 33% 67% 47% ; */
+    }
+
+    .navbar .menu .menu-list li{
+        display: block;  
+    }
+    .navbar .menu .menu-list li a{
+        display: inline-block;
+        margin: 1rem 0;
+        font-size: .9rem;
+    }
+
+
+    .home .home-content {
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+
+
+
+
+}
+
+/* 
+@media(max-width:918px){
+    
+  
+}
+
+
+
+@media(max-width:3px){
+   
+}
+
+@media(max-width:0px){
+   
+}
+
+
+@media(max-width:0px){
+   
+}
+@media(max-width:0px){
+   
+}
+@media(max-width:0px){
+   
+}
+@media(max-width:0px){
+   
+}
+@media(max-width:0px){
+   
+}
+@media(max-width:0px){
+   
+}
+@media(max-width:0px){
+   
+
+}
+*/
+
+/* kindle */
+@media(max-width:800px){
+    .home .home-content a.button {
+        padding: 11px 30px;
+        font-size: 20px;
+    }
+
+    .feature .feature-content {
+       flex-direction: column;
+    }
+   
+    .feature .feature-content .card{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ipad */
+@media(max-width:768px){
+    
+/* ================================================
+  NAVBAR SECTION
+===================================================*/
+
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}  
+
+
+.navbar .menu li a.button{
+   
+    padding: 5px 20px;
+    border-radius: 60px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+ 
+/* menu-btn-styling */
+
+.navbar .menu-btn{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+.navbar .menu-btn{
+        display: block;
+        z-index: 9999;
+        color:#fff;
+    }
+    
+
+    .menu-btn i.active:before{
+        content:"\f00d";
+        color: #fff;
+    }
+
+  
+    .navbar .menu .menu-list{
+        position: fixed;
+       
+        background: #7a7a7a;
+        width: 50%;
+        height: 100vh;
+        right: -50%;
+        top:0;
+    
+        text-align: center;
+        padding-top: 5rem;
+      
+        transition: all .5s ease;
+        z-index: -9;
+        
+    }
+    .navbar .menu .menu-list.active{
+        right: 0; 
+        /* border-radius: 79% 21% 58% 42% / 53% 33% 67% 47% ; */
+    }
+
+    .navbar .menu .menu-list li{
+        display: block;  
+    }
+    .navbar .menu .menu-list li a{
+        display: inline-block;
+        margin: 1rem 0;
+        font-size: .9rem;
+    }
+
+
+    .home .home-content {
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+
+
+
+
+
+/* ================================================
+    HOME SECTION
+===================================================*/
+
+
+
+
+
+
+
+
+/* ================================================
+    FEATURE SECTION
+===================================================*/
+
+
+
+
+
+
+/* ================================================
+    ABOUT SECTION STYLING
+===================================================*/
+
+
+
+
+/* ================================================
+    OUR PLANT SECTION
+===================================================*/
+
+
+
+
+/* ================================================
+    STYLING PEOPLE SECTION
+===================================================*/
+
+
+
+
+
+
+/* ===== TREE PLANTATION STYLING ===== */
+
+
+
+
+/* =========================================
+        FOOTER SECTION
+        ============================================= */
+   
+}
+   
+
+
+/* iphones */
+@media(max-width:414px){
+        /* ================================================
+  NAVBAR SECTION
+===================================================*/
+
+.navbar{
+    padding: 15px 0px 15px 0px;
+    border-radius: 0 0 55% 30%;
+    z-index: 9999;
+}
+
+.navbar.sticky{
+    padding: 15px 0 15px 0; 
+}
+
+.navbar .max-width{
+    padding: 0 35px;
+} 
+
+.navbar .logo a{
+    font-size: 35px;
+}
+
+
+/* .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+} */
+
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}  
+
+
+.navbar .menu li a.button{
+   
+    padding: 5px 20px;
+    border-radius: 60px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+ 
+/* menu-btn-styling */
+
+.navbar .menu-btn{
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+.navbar .menu-btn{
+        display: block;
+        z-index: 9999;
+        color:#fff;
+    }
+    
+
+    .menu-btn i.active:before{
+        content:"\f00d";
+        color: #fff;
+    }
+
+  
+    .navbar .menu .menu-list{
+        position: fixed;
+       
+        background: #7a7a7a;
+        width: 50%;
+        height: 100vh;
+        right: -50%;
+        top:0;
+    
+        text-align: center;
+        padding-top: 5rem;
+      
+        transition: all .5s ease;
+        z-index: -9;
+        
+    }
+    .navbar .menu .menu-list.active{
+        right: 0; 
+        /* border-radius: 79% 21% 58% 42% / 53% 33% 67% 47% ; */
+    }
+
+    .navbar .menu .menu-list li{
+        display: block;  
+    }
+    .navbar .menu .menu-list li a{
+        display: inline-block;
+        margin: 1rem 0;
+        font-size: .9rem;
+    }
+
+
+    .home .home-content {
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+
+
+
+
+
+/* ================================================
+    HOME SECTION
+===================================================*/
+
+
+
+.home .home-content{
+    margin-left:30px ;
+    margin-top: 160px;
+}
+
+
+
+.home .home-content .text-1{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.home .home-content .text-2{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 3rem;   
+}
+
+.home .home-content .text-3{
+    font-size: 15px;
+    width: 80%;  
+}
+
+.home .home-content a.button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 18px; 
+}
+
+
+
+
+
+
+/* ================================================
+    FEATURE SECTION
+===================================================*/
+section.feature{
+    padding:30px 30px;
+    margin-top: 40px;
+}
+
+#feature img.vine{
+    position: absolute;
+    top: 720px;
+    left: -100px;    
+    height: 280px; 
+    z-index: 9;
+}
+
+.feature .feature-content .card{
+    width: calc(33%- 20px);
+    height: 220px auto;
+    width: 250px;
+    padding: 25px 35px;
+}
+
+
+.feature .feature-content .card i{
+    font-size: 40px;
+}
+
+
+.feature .feature-content .card .text{
+    font-size: 23px;   
+}
+
+
+.feature .feature-content .card p{
+    font-size: 15px;
+}
+
+
+
+
+
+/* ================================================
+    ABOUT SECTION STYLING
+===================================================*/
+#about .max-width{
+    padding: 0 40px;
+    margin-bottom: -40px;
+}
+
+
+.about .about-content .column.left{
+    display: none;
+}
+
+.about .about-content .column.right{
+    width: 100%;
+}
+
+.about .about-content .column.right .text-1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+}
+
+.about .about-content .column.right .text-2{
+    margin: 30px 0;
+    color: #3A6351;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.about .about-content .column.right .text-2 span{
+    font-weight: 700;   
+}
+
+.about .about-content .column.right p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about .about-content .column.right a{
+    margin: 30px 0 10px 0;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* ================================================
+    OUR PLANT SECTION
+===================================================*/
+
+
+section.plant{
+    margin-top:-40px;
+    margin-bottom: -40px;
+}
+section.plant .max-width{
+    padding: 0 50px;
+}
+
+.plant .title{
+    font-size: 35px;
+}
+
+.plant .title span{
+    font-weight: 700;
+}
+
+
+.plant .plant-content .carousel .card{
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(101, 255, 126, 0.2);
+    padding: 20px 25px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    
+    border-bottom: 1px solid gray;
+    width: 310px;
+}
+
+
+.sneaker{
+    min-height: 20vh;
+}
+
+
+.plant .plant-content .card .box .img-border{
+    width: 10rem;
+    height: 80px;   
+    margin-top: 60px;
+}
+
+.plant .plant-content .card .box .img-border img{
+    width: 10rem;
+    height: 11rem;
+    bottom: 120px;   
+}
+
+
+.plant .plant-content .card .info .text-1{ 
+    font-size: 17px;
+    padding: 10px 0 5px 0;
+}
+
+.plant .plant-content .card .info .heart{
+    margin-left: 130px;
+}
+
+.plant .plant-content .card .info .heart i{
+    font-size: 18px;
+}
+
+.plant .plant-content .card p{
+    font-size: 14px;
+}
+
+
+.plant .plant-content .card .price-tag{  
+    font-size: 20px;
+}
+
+
+.plant .plant-content .card .cart button{
+    width: 45px;
+    height: 65px;
+    font-size: 1rem;
+    position: absolute;
+    left: 250px;
+    bottom: 2px;
+    z-index: 999;
+}
+
+
+
+/* owl DOTS */
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    border: 2.5px solid #7a7a7a!important;
+   
+}
+
+.owl-dot.active{
+    width: 30px;
+    border-radius: 100px;
+}
+
+
+/* ================================================
+    STYLING PEOPLE SECTION
+===================================================*/
+
+#people .max-width{
+    padding: 0 0;
+}
+
+.people .title{
+    font-size: 30px;
+}
+
+.people .title span{
+    font-weight: 700;  
+}
+
+.people-content .vine2 img{
+    width: 500px;
+}
+
+
+.people .card .person-img img{
+    height: 70px;
+    width: 60px;
+}
+
+.people .people-content{
+    padding: 0 0px 0 70px;
+}
+.people .people-content .carousel .card{
+    padding: 20px 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    height: 230px;
+    width: 270px;
+    
+}
+
+
+.people .people-content .box .info .text-1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.people .people-content .box .info p{
+    font-size: 13px;
+}
+
+
+
+
+/* ===== TREE PLANTATION STYLING ===== */
+
+#trees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trees .square{
+    padding: 50px 0px;
+    width: 270px;
+    height: 270px;
+   
+}
+
+
+
+.tree-content{
+    padding-top: 50px;
+}
+
+
+.tree-content a{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 10px 3px;
+}
+
+.tree-content h2{
+   font-size: 20px;
+   color: #7a7a7a;
+   
+}
+
+.tree-content h1.count{
+    font-size: 28px;
+    margin: 5px 0px;
+}
+
+
+.trees .square .count-icon i.fa-tree.fa-2x{
+    font-size: 30px;
+}
+.trees .square .count-icon i.fa-tree.fa-4x{
+    font-size: 50px;
+}
+.trees .square .count-icon i.fa-tree.fa-3x{
+    font-size: 40px;
+}
+
+
+
+
+
+    /* === footer --- */
+    footer{
+        height: 50px;
+        width: 98%;
+        border-top:2px solid #1FAB89;
+        border-radius: 45px 45px 0 0;
+        margin-left: 1%;
+    }
+    
+    .footer-content{
+        text-align: center;
+    }
+    
+    .footer-content .contact-icons{
+        padding: 10px 0 5px 0;
+        display:flex;
+        justify-content: center;
+       
+    }
+    .footer-content .contact-icons i{
+        font-size: 18px;
+        margin: 0 5px;
+        color: #3A6351;
+        padding: 5px;
+        transition: all .3s ease;
+    }
+    
+     
+    .footer-content p{
+        color: #7a7a7a;
+        font-size: 10px;
+        
+    }
+   
+}
+
+/* iphone X */
+@media(max-width:375px){
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* galexy */
+@media(max-width:360px){
+
+
+
+
+    /* ================================================
+  NAVBAR SECTION
+===================================================*/
+
+.navbar{
+    padding: 5px 0px 10px 0px;
+    border-radius: 0 0 55% 30%;
+    z-index: 9999;
+}
+
+.navbar.sticky{
+    padding: 5px 0 10px 0; 
+}
+
+.navbar .max-width{
+    padding: 0 35px;
+} 
+
+.navbar .logo a{
+    font-size: 30px;
+}
+
+
+/* .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+} */
+
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}  
+
+
+.navbar .menu li a.button{
+   
+    padding: 5px 20px;
+    border-radius: 60px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+ 
+/* menu-btn-styling */
+
+.navbar .menu-btn{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+.navbar .menu-btn{
+        display: block;
+        z-index: 9999;
+        color:#fff;
+    }
+    
+
+    .menu-btn i.active:before{
+        content:"\f00d";
+        color: #fff;
+    }
+
+  
+    .navbar .menu .menu-list{
+        position: fixed;
+       
+        background: #7a7a7a;
+        width: 50%;
+        height: 100vh;
+        right: -50%;
+        top:0;
+    
+        text-align: center;
+        padding-top: 5rem;
+      
+        transition: all .5s ease;
+        z-index: -9;
+        
+    }
+    .navbar .menu .menu-list.active{
+        right: 0; 
+        /* border-radius: 79% 21% 58% 42% / 53% 33% 67% 47% ; */
+    }
+
+    .navbar .menu .menu-list li{
+        display: block;  
+    }
+    .navbar .menu .menu-list li a{
+        display: inline-block;
+        margin: 1rem 0;
+        font-size: .9rem;
+    }
+
+
+    .home .home-content {
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+
+
+
+
+
+/* ================================================
+    HOME SECTION
+===================================================*/
+
+
+
+.home .home-content{
+    margin-left:30px ;
+    margin-top: 40px;
+}
+
+
+
+.home .home-content .text-1{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.home .home-content .text-2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 3rem;   
+}
+
+.home .home-content .text-3{
+    font-size: 15px;
+    width: 80%;  
+}
+
+.home .home-content a.button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 15px; 
+}
+
+
+
+
+
+
+/* ================================================
+    FEATURE SECTION
+===================================================*/
+section.feature{
+    padding:30px 30px;
+    margin-top: 40px;
+}
+
+#feature img.vine{
+    position: absolute;
+    top: 550px;
+    left: -100px;    
+    height: 250px; 
+    z-index: 9;
+}
+
+.feature .feature-content .card{
+    width: calc(33%- 20px);
+    height: 220px auto;
+    width: 250px;
+    padding: 25px 35px;
+}
+
+
+.feature .feature-content .card i{
+    font-size: 40px;
+}
+
+
+.feature .feature-content .card .text{
+    font-size: 20px;   
+}
+
+
+.feature .feature-content .card p{
+    font-size: 15px;
+}
+
+
+
+
+
+/* ================================================
+    ABOUT SECTION STYLING
+===================================================*/
+#about .max-width{
+    padding: 0 30px;
+    margin-bottom: -40px;
+}
+
+
+.about .about-content .column.left{
+    display: none;
+}
+
+.about .about-content .column.right{
+    width: 100%;
+}
+
+.about .about-content .column.right .text-1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+}
+
+.about .about-content .column.right .text-2{
+    margin-top: 30px;
+    color: #3A6351;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.about .about-content .column.right .text-2 span{
+    font-weight: 700;   
+}
+
+.about .about-content .column.right p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about .about-content .column.right a{
+    margin: 20px 0 10px 0;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* ================================================
+    OUR PLANT SECTION
+===================================================*/
+
+
+section.plant{
+    margin-top:-40px;
+    margin-bottom: -40px;
+}
+section.plant .max-width{
+    padding: 0 30px;
+}
+
+.plant .title{
+    font-size: 35px;
+}
+
+.plant .title span{
+    font-weight: 700;
+}
+
+
+.plant .plant-content .carousel .card{
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(101, 255, 126, 0.2);
+    padding: 20px 25px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+
+.sneaker{
+    min-height: 20vh;
+}
+
+
+.plant .plant-content .card .box .img-border{
+    width: 10rem;
+    height: 80px;   
+    margin-top: 60px;
+}
+
+.plant .plant-content .card .box .img-border img{
+    width: 10rem;
+    height: 11rem;
+    bottom: 120px;   
+}
+
+
+.plant .plant-content .card .info .text-1{ 
+    font-size: 17px;
+    padding: 10px 0 5px 0;
+}
+
+.plant .plant-content .card .info .heart{
+    margin-left: 90px;
+}
+
+.plant .plant-content .card .info .heart i{
+    font-size: 18px;
+}
+
+.plant .plant-content .card p{
+    font-size: 14px;
+}
+
+
+.plant .plant-content .card .price-tag{  
+    font-size: 20px;
+}
+
+
+.plant .plant-content .card .cart button{
+    width: 45px;
+    height: 65px;
+    font-size: 1rem;
+    position: absolute;
+    left: 200px;
+    bottom: 2px;
+    z-index: 999;
+}
+
+
+
+/* owl DOTS */
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    border: 2.5px solid #7a7a7a!important;
+   
+}
+
+.owl-dot.active{
+    width: 30px;
+    border-radius: 100px;
+}
+
+
+/* ================================================
+    STYLING PEOPLE SECTION
+===================================================*/
+
+#people .max-width{
+    padding: 0 0;
+}
+
+.people .title{
+    font-size: 25px;
+}
+
+.people .title span{
+    font-weight: 700;  
+}
+
+.people-content .vine2 img{
+    width: 500px;
+}
+
+
+.people .card .person-img img{
+    height: 70px;
+    width: 60px;
+}
+
+.people .people-content{
+    padding: 0 30px;
+}
+.people .people-content .carousel .card{
+    padding: 20px 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    height: 230px;
+    width: 255px;
+    
+}
+
+
+.people .people-content .box .info .text-1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.people .people-content .box .info p{
+    font-size: 13px;
+}
+
+
+
+
+/* ===== TREE PLANTATION STYLING ===== */
+
+#trees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trees .square{
+    padding: 50px 0px;
+    width: 270px;
+    height: 270px;
+   
+}
+
+
+
+.tree-content{
+    padding-top: 50px;
+}
+
+
+.tree-content a{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 10px 3px;
+}
+
+.tree-content h2{
+   font-size: 20px;
+   color: #7a7a7a;
+   
+}
+
+.tree-content h1.count{
+    font-size: 28px;
+    margin: 5px 0px;
+}
+
+
+.trees .square .count-icon i.fa-tree.fa-2x{
+    font-size: 30px;
+}
+.trees .square .count-icon i.fa-tree.fa-4x{
+    font-size: 50px;
+}
+.trees .square .count-icon i.fa-tree.fa-3x{
+    font-size: 40px;
+}
+
+
+
+
+
+    /* === footer --- */
+    footer{
+        height: 50px;
+        width: 98%;
+        border-top:2px solid #1FAB89;
+        border-radius: 45px 45px 0 0;
+        margin-left: 1%;
+    }
+    
+    .footer-content{
+        text-align: center;
+    }
+    
+    .footer-content .contact-icons{
+        padding: 10px 0 5px 0;
+        display:flex;
+        justify-content: center;
+       
+    }
+    .footer-content .contact-icons i{
+        font-size: 18px;
+        margin: 0 5px;
+        color: #3A6351;
+        padding: 5px;
+        transition: all .3s ease;
+    }
+    
+     
+    .footer-content p{
+        color: #7a7a7a;
+        font-size: 10px;
+        
+    }
+    
+   
+}
+ 
